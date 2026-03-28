@@ -64,8 +64,8 @@ toolPreview:
 
 metadata:
   categories: Infrastructure, VFX, DevOps, AWS, Ansible
-  icon: https://raw.githubusercontent.com/mihai-satmarean/private-mcp/main/icons/anansi.png
-  repoURL: https://github.com/mihai-satmarean/anansi-mcp-server
+  icon: https://gitlab.com/global-tech2/products/anansi-mcp-server/-/raw/main/docs/icon.png
+  repoURL: https://gitlab.com/global-tech2/products/anansi-mcp-server
 
 env:
   - key: AWX_BASE_URL
@@ -106,6 +106,6 @@ env:
 
 runtime: containerized
 containerizedConfig:
-  image: "ghcr.io/mihai-satmarean/anansi-mcp-server:latest"
+  image: "registry.gitlab.com/global-tech2/products/anansi-mcp-server:latest"
   port: 8088
   path: /sse
